@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ecoProject</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Metrophobic&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<head>
+  <nav>
+    <div class="container">
+      <div class="navbar" id="navbar">
+        <div class="navbar__logo">
+          <img src="../../img/ecoProject.png" alt="">
+        </div>
+        <div class="navbar__location">
+          <img src="../../img/location.svg" alt="">
+          <div class="location__text">
+            Посёлок Южный,<br>
+            ул. Новая 33/15,<br>
+            Пн-Пт с 9:00 до 18:00
+          </div>
+        </div>
+        <div class="navbar__phone">
+          <div class="phone__number">
+            +7-989-827-46-56
+          </div>
+          <div class="phone__text">или <a href="">обратный звонок</a></div>
+        </div>
+        <div class="navbar__burger">
+          <span></span>
+        </div>
+        <!-- Бургер меню -->
+        <input type="checkbox" id="burger_button">
+        <label class="menu-btn" for="burger_button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="menu_burger">
+          <li class="menu_burger_item"><a class="menu_item_burger-link" href="../index.html">Главная</a></li>
+          <li class="menu_burger_item"><a class="menu_item_burger-link" href="../plastic_windows.html">
+              Пластиковые изделия
+            </a></li>
+          <li class="menu_burger_item"><a class="menu_item_burger-link" href="../allum_windows.html">Алюминевые изделия</a></li>
+          <li class="menu_burger_item"><a class="menu_item_burger-link" href="../about.html">О компании</a></li>
+          <li class="menu_burger_item"><a class="menu_item_burger-link" href="../reviews.html">Наши возможности</a></li>
+          <li class="menu_burger_item"><a class="menu_item_burger-link" href="../features.html">Отзывы</a></li>
+        </ul>
+        <!-- Бургер меню -->
+      </div>
+      <div id="submenu" class="submenu">
+        <ul class="submenu__list">
+          <a href="../index.html" class="submenu__item">Главная</a>
+          <a href="../plastic_windows.html" class="submenu__item">Пластиковые изделия</a>
+          <a href="../allum_windows.html" class="submenu__item">Алюминевые изделия</a>
+          <a href="../about.html" class="submenu__item">О компании</a>
+          <a href="../features.html" class="submenu__item">Наши возможности</a>
+          <a href="../reviews.html" class="submenu__item">Отзывы</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- <li class="submenu__item"><a href="" class="submenu__item-link">Главная</a></li> -->
+</head>
+<!-- btn-scroll -->
+<div class="btnUP" id="btnUP">
+  <div class="btnUP__img">
+    <img src="../../../img/Arrow 1.svg" alt="">
+  </div>
+</div>
+<!-- <button onclick="scrollToRopFunction()" id="myBtn" title="Go to top">
+</button> -->
+<!-- btn-scroll -->
+
+<body>
+  <section class="section_windows">
+    <div class="container">
+      <div class="wraper_windows">
+        <div class="content_windows">
+          <h1 class="windows__title">Алюминевые окна</h1>
+          <h2 class="windows__subtitle">Безопасность и уникальность</h2>
+          <p class="windows__text">
+            Алюминиевые окна - это исполнение фасадов, окон и дверей больших размеров, которые выдерживают большие нагрузки и собрать их можно в любом цвете
+          </p>
+          <div class="windows__btn">
+            <a href="#" class="btn_primary btn__windows">Заказать звонок</a>
+          </div>
+          <img class="windows__img" src="../../../img/allum_windows.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section_why">
+    <div class="container">
+      <div class="why">
+        <h1 class="why__title">Почему алюминевые окна?</h1>
+        <div class="wraper__why">
+          <div class="why__img">
+            <img src="../../../img/why_allum.png" alt="" class="">
+          </div>
+          <div class="why__content">
+            <p class="why__text">
+              Такие окна не боятся резкой смены температур на улице, что позволяет сохранять и поддерживать
+              тепло в помещении. Алюминиевый профиль пожаробезопасен и не выделяет никаких токсичных веществ
+              при нагревании. Изделия такого профиля легче поддаются изменению формы, что позволяет сделать
+              окно хоть круглым, хоть треугольным.
+            </p>
+            <h3 class="why__subtitle">Преимущества алюминевых окон</h3>
+            <div class="why__accordeon-wrapper">
+              <div class="accordeon__item">
+                <span class="item__span"></span>
+                <input type="checkbox" class="accordeon__item-input" id="item-1">
+                <label for="item-1" class="accordeon__item-label">
+                  <h3 class="accordeon__title">Теплоизоляция</h3>
+                </label>
+                <p class="accordeon__text">
+                  Алюминиевые окна легкие, что позволяет установить их в любом помещении, даже в том,
+                  где нет возможности использовать подвесные конструкции.
+                </p>
+              </div>
+              <div class="accordeon__item">
+                <input type="checkbox" class="accordeon__item-input" id="item-2">
+                <label for="item-2" class="accordeon__item-label">
+                  <h3 class="accordeon__title">Вариативность форм </h3>
+                </label>
+                <p class="accordeon__text">
+                  Алюминиевые окна легкие, что позволяет установить их в любом помещении, даже в том,
+                  где нет возможности использовать подвесные конструкции.
+                </p>
+              </div>
+              <div class="accordeon__item">
+                <input type="checkbox" class="accordeon__item-input" id="item-3">
+                <label for="item-3" class="accordeon__item-label">
+                  <h3 class="accordeon__title">Эстетика</h3>
+                </label>
+                <p class="accordeon__text">
+                  Алюминиевые окна легкие, что позволяет установить их в любом помещении, даже в том,
+                  где нет возможности использовать подвесные конструкции.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section_Wbenefits">
+    <div class="container">
+      <div class="Wbenefits">
+        <h1 class="Wbenefits__title">Наши преимущества</h1>
+        <div class="Wbenefits__wraper">
+          <div class="Wbenefits__item">
+            <div class="item__figure">
+              <img src="../../../img/Wbenefits_1.png" alt="">
+            </div>
+            <h3 class="item__subtitle">Надежные материалы</h3>
+            <p class="item__text">Мы подбираем их так, чтобы выбранное вами окно служило вам всю жизнь.</p>
+          </div>
+          <div class="Wbenefits__item">
+            <div class="item__figure">
+              <img src="../../../img/Wbenefits_2.png" alt="">
+            </div>
+            <h3 class="item__subtitle">Надежные материалы</h3>
+            <p class="item__text">Наши специалисты готовы не только заламинировать выбранное вами окно, но и придать ему даже самую необычную форму, если того требует ваше жилье.</p>
+          </div>
+          <div class="Wbenefits__item">
+            <div class="item__figure">
+              <img src="../../../img/Wbenefits_3.svg" alt="">
+            </div>
+            <h3 class="item__subtitle">Надежные материалы</h3>
+            <p class="item__text">Разработанная нами система цен и оплаты услуг позволит каждому клиенту подобрать идеальный для него вариант без потери качества выбранного изделия.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section_Psuppliers">
+    <div class="container">
+      <div class="wraper_Psuppliers">
+        <h1 class="Psuppliers__title">Наши поставщики</h1>
+        <div class="content_Asuppliers" style="z-index: 99;">
+          <a class="Asuppliers__item" href="https://www.alumil.com/">
+            <img src="../../../img/A-GU.png" alt="">
+          </a>
+          <a class="Asuppliers__item" href="https://www.g-u.ru/">
+            <img src="../../../img/A-ALUMIL.png" alt="" style="z-index: 99;">
+          </a>
+          <a class="Asuppliers__item" href="https://www.stublina.com/tr-index.html">
+            <img src="../../../img/A-stublina.png" alt="" style="z-index: 99;">
+          </a>
+        </div>
+        <img class="Psuppliers__img" src="../../../img/Psuppliers_group.png" alt="" style="z-index: -1;">
+      </div>
+    </div>
+  </section>
+  <section class="section_Pcomponent">
+    <div class="container">
+      <h3 class="Pcomponent__titel">Комплектующие окон</h3>
+      <div class="Pcomponent__wrapper-switched">
+        <button class="wrapper-switched__btn">Стеклопакет</button>
+        <button class="wrapper-switched__btn">Подоконник</button>
+        <button class="wrapper-switched__btn">Ламинация</button>
+      </div>
+      <div class="Pcomponent__wrapper-content glass windowsill lamination">
+        <div class="wrapper-content__img">
+          <img src="../../../img/why_window.png" alt="">
+        </div>
+        <h3 class="wrapper-content__title">Немецкая фурнитура</h3>
+        <p class="wrapper-content__text">
+          Используемая в изделиях фурнитура не только позволяет защитить дом от
+          непогоды и шума, но также обезопасить любопытных детей от неприятных последствий их игр у окна и
+          защитить семью от вторжения посторонних лиц.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="section_examples-allum">
+    <div class="container">
+      <div class="container_examples-allum">
+        <h1 class="examples-allum__title">Примеры алюминевых изделий</h1>
+        <!-- Slider main container -->
+        <div class="swiper4 examples-allum-swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper examples-allum-swiper__wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide examples-allum-swiper__slider">
+              <img src="../../../img/examples_allum.png" alt="">
+            </div>
+            <div class="swiper-slide examples-allum-swiper__slider">
+              <img src="../../../img/examples_allum.png" alt="">
+            </div>
+            <div class="swiper-slide examples-allum-swiper__slider">
+              <img src="../../../img/examples_allum.png" alt="">
+            </div>
+            <div class="swiper-slide examples-allum-swiper__slider">
+              <img src="../../../img/examples_allum.png" alt="">
+            </div>
+            <div class="swiper-slide examples-allum-swiper__slider">
+              <img src="../../../img/examples_allum.png" alt="">
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination examples-allum-swiper__pagination-work"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="examples-allum-swiper__arrows">
+            <div class="examples-allum-swiper-prev btn__prev">
+              <img src="../../../img/Arrow 3.png" alt="">
+            </div>
+            <div class="examples-allum-swiper-next btn__next">
+              <img src="../../../img/Arrow 3.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section_questions">
+    <div class="container">
+      <div class="questions">
+        <h3 class="questions__title">Ответим на любые ваши вопросы!</h3>
+        <input type="text" class="questions__input" placeholder="Имя">
+        <input type="number" class="questions__input" placeholder="Номер">
+        <a href="" class="questions__btn btn_outline">Заказать звонок</a>
+      </div>
+    </div>
+  </section>
+</body>
+<footer>
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div class="footer__about">
+          <img src="../../img/ecoProject.png" alt="">
+          <div class="about__contacts">
+            <a href=""><img src="../../img/eco_insta.png" alt=""></a>
+            <a href=""><img src="../../img/eco_WhatsApp.png" alt="">
+            </a>
+          </div>
+          <p>
+            © 2022 «ecoProject»
+          </p>
+        </div>
+        <div class="footer__item">
+          <ul class="item__list">
+            <li class="item__list-link-first"><a href="">Главная</a></li>
+            <li class="item__list-link"><a href="">Пластиковые изделия</a></li>
+            <li class="item__list-link"><a href="">Алюминиевые изделия</a></li>
+            <li class="item__list-link"><a href="">О компании </a></li>
+            <li class="item__list-link"><a href="">Отзывы</a></li>
+          </ul>
+          <ul class="item__list">
+            <li class="item__list-link-first"><a href="">Основное</a></li>
+            <li class="item__list-link"><a href="">Наши работы</a></li>
+            <li class="item__list-link"><a href="">Поставщики</a></li>
+            <li class="item__list-link"><a href="">Контакты</a></li>
+          </ul>
+          <ul class="item__list">
+            <li class="item__list-link-first"><a href="">Дополнительно</a></li>
+            <li class="item__list-link"><a href="">Преимущества</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="index.min.js"></script>
+</footer>
+
+</html>

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ecoProject</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Metrophobic&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<head>
+  <nav>
+    <div class="container">
+      <div class="navbar" id="navbar">
+        <div class="navbar__logo">
+          <img src="../../img/ecoProject.png" alt="">
+        </div>
+        <div class="navbar__location">
+          <img src="../../img/location.svg" alt="">
+          <div class="location__text">
+            Посёлок Южный,<br>
+            ул. Новая 33/15,<br>
+            Пн-Пт с 9:00 до 18:00
+          </div>
+        </div>
+        <div class="navbar__phone">
+          <div class="phone__number">
+            +7-989-827-46-56
+          </div>
+          <div class="phone__text">или <a href="">обратный звонок</a></div>
+        </div>
+        <div class="navbar__burger">
+          <span></span>
+        </div>
+        <!-- Бургер меню -->
+        <input type="checkbox" id="burger_button">
+        <label class="menu-btn" for="burger_button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="menu_burger">
+          <li class="menu_burger_item"><a class="menu_item_burger-link" href="../index.html">Главная</a></li>
+          <li class="menu_burger_item"><a class="menu_item_burger-link" href="../plastic_windows.html">
+              Пластиковые изделия
+            </a></li>
+          <li class="menu_burger_item"><a class="menu_item_burger-link" href="../allum_windows.html">Алюминевые изделия</a></li>
+          <li class="menu_burger_item"><a class="menu_item_burger-link" href="../about.html">О компании</a></li>
+          <li class="menu_burger_item"><a class="menu_item_burger-link" href="../reviews.html">Наши возможности</a></li>
+          <li class="menu_burger_item"><a class="menu_item_burger-link" href="../features.html">Отзывы</a></li>
+        </ul>
+        <!-- Бургер меню -->
+      </div>
+      <div id="submenu" class="submenu">
+        <ul class="submenu__list">
+          <a href="../index.html" class="submenu__item">Главная</a>
+          <a href="../plastic_windows.html" class="submenu__item">Пластиковые изделия</a>
+          <a href="../allum_windows.html" class="submenu__item">Алюминевые изделия</a>
+          <a href="../about.html" class="submenu__item">О компании</a>
+          <a href="../features.html" class="submenu__item">Наши возможности</a>
+          <a href="../reviews.html" class="submenu__item">Отзывы</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- <li class="submenu__item"><a href="" class="submenu__item-link">Главная</a></li> -->
+</head>
+<!-- btn-prokrytka -->
+<div class="btnUP" id="btnUP">
+  <div class="btnUP__img">
+    <img src="../../../img/Arrow 1.svg" alt="">
+  </div>
+</div>
+<!-- <button onclick="scrollToRopFunction()" id="myBtn" title="Go to top">
+</button> -->
+<!-- btn-prokrytka -->
+
+<body>
+  <section class="section__select">
+    <div class="container">
+      <div class="select">
+        <h2 class="select__title">Поможем выбрать!</h2>
+        <h3 class="select__subtitle">
+          Откройте для себя современные оконные и дверные
+          решения, которые идут в ногу со временем. Высокотехнологичные, созданные для максимального комфорта. Мы упрощаем вам задачу выбора, так как у нас вы сможете найти любые варианты окон и дверей, приобрести их в одном месте, в кратчайшие сроки.
+        </h3>
+        <h3 class="select__subtitle-two">
+          <p> <strong>Индивидуально. Просто. Быстро.</strong> Выберите профильную систему от элитного до простого.</p>
+        </h3>
+        <div class="select__buttons">
+          <a href="../../allum_windows.html" class="button__select btn_primary">Алюминевые окна</a>
+          <a href="../../plastic_windows.html" class="button__select btn_primary">Пластиковые окна</a>
+        </div>
+      </div>
+      <img class="select__img" src="../../../img/main_img.png" alt="">
+    </div>
+  </section>
+  <section class="section__benefits">
+    <div class="container">
+      <h1 class="benefits__title">Наши преимущества</h1>
+      <div class="benefits__cards">
+        <div class="cards__item">
+          <img src="../../../img/вектор температура.svg" alt="" class="item__img">
+          <h3 class="item__text">
+            Хорошо переносят ветровые нагрузки, сохраняя температуру в помещении
+          </h3>
+        </div>
+        <div class="cards__item">
+          <img src="../../../img/like_benefits.svg" alt="" class="item__img">
+          <h3 class="item__text">
+            Мы гарантируем вам качество собранных изделий, срок эксплуатации которых составляет более нескольких десятилетий
+          </h3>
+        </div>
+        <div class="cards__item">
+          <img src="../../../img/вектор дом.svg" alt="" class="item__img">
+          <h3 class="item__text">
+            Покрасим ваши изделия в любой цвет по немецкому цветовому стандарту <a href="https://ral.ru/classic_colours">RAL</a>, <a href="https://www.decoral-system.com/ru/">DecoRAL</a>, а также заламинируем выбранную Вами структуру
+          </h3>
+        </div>
+        <div class="cards__item">
+          <img src="../../../img/вектор для тех. хар-к.svg" alt="" class="item__img">
+          <h3 class="item__text">
+            Характеристики нашей фурнитуры позволяют реализровать самые нестандартные решения
+          </h3>
+        </div>
+        <div class="cards__item">
+          <img src="../../../img/benefits_1.svg" alt="" class="item__img">
+          <h3 class="item__text">
+            Возможность изготавливать и устанавливать изделия больших размеров
+          </h3>
+        </div>
+        <div class="cards__item">
+          <img src="../../../img/hummer_benefits.png" alt="" class="item__img">
+          <h3 class="item__text">
+            Изготовление стандартных решений за 5 рабочих дней
+          </h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section__about">
+    <div class="container">
+      <div class="about_wraper">
+        <div class="about">
+          <h1 class="about__title">О Компании</h1>
+          <img class="about__img" src="../../../img/фото.png" alt="">
+        </div>
+        <div class="about__content">
+          <span class="about_line"></span>
+          <p class="content__text">
+            Вот уже 12 лет наши специалисты помогают людям сделать их дома лучше. За это время мы расширили свою географию, работая не только в Краснодарском Крае, но также в Ростовской области и Ставрополье. Что отличает нас от других? Нам важен каждый, кто к нам обращается. Компания контролирует процесс работы на всех этапах: от выбора наиболее подходящего варианта до окончательного монтажа пластиковых и алюминиевых изделий. Мы учитываем не только пожелания, но и финансовый потенциал всех наших клиентов – разработана специальная система скидок, а также возможность приобрести необходимое изделие в рассрочку.
+          </p>
+          <div class="content__btn-pos">
+            <a href="../../about.html" class="content__btn btn_outline">Подробнее</a>
+          </div>
+          <span class="about_line_1"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section_format">
+    <div class="container">
+      <h3 class="format_title">Выбери свой формат</h3>
+      <div class="format_wraper">
+        <div class="container_format">
+          <div class="format__images">
+            <img src="../../../img/format_plastik.png" alt="" class="format__img">
+          </div>
+          <div class="format__content">
+            <h3 class="format__title">Пластиковые окна</h3>
+            <p class="format__text">
+              Экологичные и долговечные. Срок использования такого вида окон достигает 40-50 лет. Они не
+              подвержены воздействию внешней среды, сохраняя свою форму с первого дня эксплуатации. Также ПВХ
+              изделия никак не вредят ни членам семьи, ни окружающей среде.
+            </p>
+            <a href="../../plastic_windows.html" class="format__btn btn_primary">Подробнее</a>
+          </div>
+        </div>
+        <div class="container_format">
+          <div class="format__images">
+            <img src="../../../img/format_allum.png" alt="" class="format__img">
+          </div>
+          <div class="format__content">
+            <h3 class="format__title">Алюминиевые окна</h3>
+            <p class="format__text">
+              Теплые и безопасные. Помимо того, что такие окна не боятся резкого перепада температур на улице, сохраняя естественную атмосферу в доме в любую погоду, они гарантируют безопасность. Алюминиевый профиль пожаробезопасен, а также не выделяет никаких токсичных веществ при нагревании.
+            </p>
+            <a href="../../allum_windows.html" class="format__btn btn_primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section_partners">
+    <div class="container">
+      <h3 class="partners_title">Сотрудничество с партнерами</h3>
+      <!-- Slider main container -->
+      <div class="swiper swiper1">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="../../../img/parthners_allumil.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <a href="https://www.rehau.com/tr-tr/bireysel-muesteriler">
+              <img src="../../../img/parthners_rehau.png" alt="">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="https://www.alumil.com/">
+              <img src="../../../img/parthners_allumil.png" alt="">
+            </a>
+          </div>
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper__arrows">
+          <div class="prev__btn btn__prev">
+            <img src="../../../img/Arrow 3.png" alt="">
+          </div>
+          <div class="next__btn btn__next">
+            <img src="../../../img/Arrow 3.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <img class="parthners_img" src="../../../img/Group.png" alt="">
+    </div>
+  </section>
+  <section class="section_works">
+    <div class="container">
+      <div class="container_works">
+        <h1 class="works__title">Наши работы</h1>
+        <!-- Slider main container -->
+        <div class="swiper2 works_swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper works_swiper__wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide wrapper__slider-works works_swiper__slider">
+              <img src="../../../img/works_slide-1.png" alt="">
+            </div>
+            <div class="swiper-slide wrapper__slider-works works_swiper__slider">
+              <img src="../../../img/works_slide-1.png" alt="">
+            </div>
+            <div class="swiper-slide wrapper__slider-works works_swiper__slider">
+              <img src="../../../img/works_slide-1.png" alt="">
+            </div>
+            <div class="swiper-slide wrapper__slider-works works_swiper__slider">
+              <img src="../../../img/works_slide-1.png" alt="">
+            </div>
+            <div class="swiper-slide wrapper__slider-works works_swiper__slider">
+              <img src="../../../img/works_slide-1.png" alt="">
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination swiper-pagination-work"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper__arrows-works">
+            <div class="prev__btn-works btn__prev">
+              <img src="../../../img/Arrow 3.png" alt="">
+            </div>
+            <div class="next__btn-works btn__next">
+              <img src="../../../img/Arrow 3.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section_reviews">
+    <div class="container">
+      <div class="reviews_background"></div>
+      <div class="reviews">
+        <h3 class="reviews__title">
+          Отзывы
+        </h3>
+        <h4 class="reviews__subtitle">
+          С нами более 5000 довольных клиентов
+        </h4>
+        <div class="reviews__btn">
+          <div href="" class="btn__prev-reviews btn__prev">
+            <img src="../../../img/Arrow 3.png" alt="">
+          </div>
+          <div href="" class="btn__next-reviews btn__next">
+            <img src="../../../img/Arrow 3.png" alt="">
+          </div>
+        </div>
+        <div class="reviews__slider swiper3">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide reviews__slider-item">
+              <div class="reviews__slider-item-text">
+                <p>
+                  Очень довольна покупкой. Спасибо за оперативную доставку. Все пришло в отличном состоянии.
+                  Всем советую.
+                  Очень довольна покупкой. Спасибо за оперативную доставку. Все пришло в отличном состоянии.
+                  Всем советую.
+                </p>
+              </div>
+              <div class="reviews__slider-item-author">
+                <p>Антон Никитин</p>
+              </div>
+              <div class="reviews__slider-item-data">
+                <p>21.02.2019</p>
+              </div>
+            </div>
+            <div class="swiper-slide reviews__slider-item">
+              <div class="reviews__slider-item-text">
+                <p>
+                  Очень довольна покупкой. Спасибо за оперативную доставку. Все пришло в отличном состоянии.
+                  Всем советую.
+                </p>
+              </div>
+              <div class="reviews__slider-item-author">
+                <p>Антон Никитин</p>
+              </div>
+              <div class="reviews__slider-item-data">
+                <p>21.02.2019</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="reviews_img" src="../../../img/Group.png" alt="">
+    </div>
+  </section>
+  <section class="section_questions">
+    <div class="container">
+      <div class="questions">
+        <h3 class="questions__title">Ответим на любые ваши вопросы!</h3>
+        <input type="text" class="questions__input" placeholder="Имя">
+        <input type="number" class="questions__input" placeholder="Номер">
+        <a href="" class="questions__btn btn_outline">Заказать звонок</a>
+      </div>
+    </div>
+  </section>
+</body>
+
+<footer>
+  <section class="section_maps">
+    <div class="frame-map">
+      <h3 class="frame-map__title">Свяжитесь с нами</h3>
+      <a href="tel:+79898274656">+7-989-827-46-56</a>
+      <a href="mailto:not_alum@mail.ru">not_alum@mail.ru</a>
+      <p class="option-map frame-map__adress">ул. Новая 33/15, поселок Южный</p>
+      <div class="map__img-container">
+        <a class="map__img" href="http://">
+          <img src="../../img/eco_insta.png" alt="">
+        </a>
+        <a class="map__img" href="http://">
+          <img src="../../img/eco_WhatsApp.png" alt="">
+        </a>
+      </div>
+    </div>
+    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aea2577940c10c6944daa67b4580bea0fa99ddb169cd045b88e889b1765519d04&amp;source=constructor" width="100%" height="550" frameborder="0">
+    </iframe>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div class="footer__about">
+          <img src="../../img/ecoProject.png" alt="">
+          <div class="about__contacts">
+            <a href=""><img src="../../img/eco_insta.png" alt=""></a>
+            <a href=""><img src="../../img/eco_WhatsApp.png" alt="">
+            </a>
+          </div>
+          <p>
+            © 2022 «ecoProject»
+          </p>
+        </div>
+        <div class="footer__item">
+          <ul class="item__list">
+            <li class="item__list-link-first"><a href="">Главная</a></li>
+            <li class="item__list-link"><a href="">Пластиковые изделия</a></li>
+            <li class="item__list-link"><a href="">Алюминиевые изделия</a></li>
+            <li class="item__list-link"><a href="">О компании </a></li>
+            <li class="item__list-link"><a href="">Отзывы</a></li>
+          </ul>
+          <ul class="item__list">
+            <li class="item__list-link-first"><a href="">Основное</a></li>
+            <li class="item__list-link"><a href="">Наши работы</a></li>
+            <li class="item__list-link"><a href="">Поставщики</a></li>
+            <li class="item__list-link"><a href="">Контакты</a></li>
+          </ul>
+          <ul class="item__list">
+            <li class="item__list-link-first"><a href="">Дополнительно</a></li>
+            <li class="item__list-link"><a href="">Преимущества</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="index.min.js"></script>
+</footer>
+
+</html>

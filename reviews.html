@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ecoProject</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Metrophobic&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<head>
+  <nav>
+    <div class="container">
+      <div class="navbar" id="navbar">
+        <div class="navbar__logo">
+          <img src="../../img/ecoProject.png" alt="">
+        </div>
+        <div class="navbar__location">
+          <img src="../../img/location.svg" alt="">
+          <div class="location__text">
+            Посёлок Южный,<br>
+            ул. Новая 33/15,<br>
+            Пн-Пт с 9:00 до 18:00
+          </div>
+        </div>
+        <div class="navbar__phone">
+          <div class="phone__number">
+            +7-989-827-46-56
+          </div>
+          <div class="phone__text">или <a href="">обратный звонок</a></div>
+        </div>
+        <div class="navbar__burger">
+          <span></span>
+        </div>
+        <!-- Бургер меню -->
+        <input type="checkbox" id="burger_button">
+        <label class="menu-btn" for="burger_button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="menu_burger">
+          <li class="menu_burger_item"><a class="menu_item_burger-link" href="../index.html">Главная</a></li>
+          <li class="menu_burger_item"><a class="menu_item_burger-link" href="../plastic_windows.html">
+              Пластиковые изделия
+            </a></li>
+          <li class="menu_burger_item"><a class="menu_item_burger-link" href="../allum_windows.html">Алюминевые изделия</a></li>
+          <li class="menu_burger_item"><a class="menu_item_burger-link" href="../about.html">О компании</a></li>
+          <li class="menu_burger_item"><a class="menu_item_burger-link" href="../reviews.html">Наши возможности</a></li>
+          <li class="menu_burger_item"><a class="menu_item_burger-link" href="../features.html">Отзывы</a></li>
+        </ul>
+        <!-- Бургер меню -->
+      </div>
+      <div id="submenu" class="submenu">
+        <ul class="submenu__list">
+          <a href="../index.html" class="submenu__item">Главная</a>
+          <a href="../plastic_windows.html" class="submenu__item">Пластиковые изделия</a>
+          <a href="../allum_windows.html" class="submenu__item">Алюминевые изделия</a>
+          <a href="../about.html" class="submenu__item">О компании</a>
+          <a href="../features.html" class="submenu__item">Наши возможности</a>
+          <a href="../reviews.html" class="submenu__item">Отзывы</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- <li class="submenu__item"><a href="" class="submenu__item-link">Главная</a></li> -->
+</head>
+<!-- btn-prokrytka -->
+<div class="btnUP" id="btnUP">
+  <div class="btnUP__img">
+    <img src="../../../img/Arrow 1.svg" alt="">
+  </div>
+</div>
+<!-- <button onclick="scrollToRopFunction()" id="myBtn" title="Go to top">
+</button> -->
+<!-- btn-prokrytka -->
+
+<body>
+  <section class="section_reviews_page">
+    <div class="container">
+      <div class="page">
+        <h3 class="page__title">
+          Оставьте свой отзыв!
+        </h3>
+        <input type="text" class="page__input page__input-name" placeholder="Имя">
+        <input type="text" class="page__input page__input-phone" placeholder="Номер">
+        <textarea name="" id="" cols="30" rows="10" class="page__textarea" placeholder="Ваш отзыв"></textarea>
+        <button class="page__btn btn_primary">Отправить</button>
+      </div>
+      <img class="select__img" src="../../../img/main_img.png" alt="">
+    </div>
+  </section>
+  <section class="section_page_reviews">
+    <div class="container">
+      <div class="reviews">
+        <img class="page_reviews_img-1" src="../../../img/reviews_page_dots.png" alt="">
+        <h3 class="reviews__title-page">
+          Что клиенты думают о нас?
+        </h3>
+        <div class="reviews__btn">
+          <div href="" class="btn__prev reviews-btn-prev">
+            <img src="../../../img/Arrow 3.png" alt="">
+          </div>
+          <div href="" class="btn__next reviews-btn-next">
+            <img src="../../../img/Arrow 3.png" alt="">
+          </div>
+        </div>
+        <div class="reviews__slider swiper6">
+          <div class="swiper-wrapper">
+            <div class="reviews__slider-item swiper-slide">
+              <div class="reviews__slider-item-text">
+                <p>
+                  Очень довольна покупкой. Спасибо за оперативную доставку. Все пришло в отличном
+                  состоянии.
+                  Всем советую.
+                  Очень довольна покупкой. Спасибо за оперативную доставку. Все пришло в отличном
+                  состоянии.
+                  Всем советую.
+                </p>
+              </div>
+              <div class="reviews__slider-item-author">
+                <p>Антон Никитин</p>
+              </div>
+              <div class="reviews__slider-item-data">
+                <p>21.02.2019</p>
+              </div>
+            </div>
+            <div class="reviews__slider-item swiper-slide">
+              <div class="reviews__slider-item-text">
+                <p>
+                  Очень довольна покупкой. Спасибо за оперативную доставку. Все пришло в отличном
+                  состоянии.
+                  Всем советую.
+                </p>
+              </div>
+              <div class="reviews__slider-item-author">
+                <p>Антон Никитин</p>
+              </div>
+              <div class="reviews__slider-item-data">
+                <p>21.02.2019</p>
+              </div>
+            </div>
+            <div class="reviews__slider-item swiper-slide">
+              <div class="reviews__slider-item-text">
+                <p>
+                  Очень довольна покупкой. Спасибо за оперативную доставку. Все пришло в отличном
+                  состоянии.
+                  Всем советую.
+                </p>
+              </div>
+              <div class="reviews__slider-item-author">
+                <p>Антон Никитин</p>
+              </div>
+              <div class="reviews__slider-item-data">
+                <p>21.02.2019</p>
+              </div>
+            </div>
+            <div class="reviews__slider-item swiper-slide">
+              <div class="reviews__slider-item-text">
+                <p>
+                  Очень довольна покупкой. Спасибо за оперативную доставку. Все пришло в отличном
+                  состоянии.
+                  Всем советую.
+                </p>
+              </div>
+              <div class="reviews__slider-item-author">
+                <p>Антон Никитин</p>
+              </div>
+              <div class="reviews__slider-item-data">
+                <p>21.02.2019</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="page_reviews_img-2" src="../../../img/reviews_page_dots.png" alt="">
+    </div>
+  </section>
+  <section class="section_questions">
+    <div class="container">
+      <div class="questions">
+        <h3 class="questions__title">Ответим на любые ваши вопросы!</h3>
+        <input type="text" class="questions__input" placeholder="Имя">
+        <input type="number" class="questions__input" placeholder="Номер">
+        <a href="" class="questions__btn btn_outline">Заказать звонок</a>
+      </div>
+    </div>
+  </section>
+</body>
+<footer>
+  <section class="section_maps">
+    <div class="frame-map">
+      <h3 class="frame-map__title">Свяжитесь с нами</h3>
+      <a href="tel:+79898274656">+7-989-827-46-56</a>
+      <a href="mailto:not_alum@mail.ru">not_alum@mail.ru</a>
+      <p class="option-map frame-map__adress">ул. Новая 33/15, поселок Южный</p>
+      <div class="map__img-container">
+        <a class="map__img" href="http://">
+          <img src="../../img/eco_insta.png" alt="">
+        </a>
+        <a class="map__img" href="http://">
+          <img src="../../img/eco_WhatsApp.png" alt="">
+        </a>
+      </div>
+    </div>
+    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aea2577940c10c6944daa67b4580bea0fa99ddb169cd045b88e889b1765519d04&amp;source=constructor" width="100%" height="550" frameborder="0">
+    </iframe>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div class="footer__about">
+          <img src="../../img/ecoProject.png" alt="">
+          <div class="about__contacts">
+            <a href=""><img src="../../img/eco_insta.png" alt=""></a>
+            <a href=""><img src="../../img/eco_WhatsApp.png" alt="">
+            </a>
+          </div>
+          <p>
+            © 2022 «ecoProject»
+          </p>
+        </div>
+        <div class="footer__item">
+          <ul class="item__list">
+            <li class="item__list-link-first"><a href="">Главная</a></li>
+            <li class="item__list-link"><a href="">Пластиковые изделия</a></li>
+            <li class="item__list-link"><a href="">Алюминиевые изделия</a></li>
+            <li class="item__list-link"><a href="">О компании </a></li>
+            <li class="item__list-link"><a href="">Отзывы</a></li>
+          </ul>
+          <ul class="item__list">
+            <li class="item__list-link-first"><a href="">Основное</a></li>
+            <li class="item__list-link"><a href="">Наши работы</a></li>
+            <li class="item__list-link"><a href="">Поставщики</a></li>
+            <li class="item__list-link"><a href="">Контакты</a></li>
+          </ul>
+          <ul class="item__list">
+            <li class="item__list-link-first"><a href="">Дополнительно</a></li>
+            <li class="item__list-link"><a href="">Преимущества</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="index.min.js"></script>
+</footer>
+
+</html>
